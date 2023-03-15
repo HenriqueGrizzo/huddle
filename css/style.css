@@ -1,0 +1,90 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url('/images/bg-desktop.svg');
+  background-size: cover;
+  background-color: var(--primary-dark);
+  height: 100%;
+}
+
+header {
+  padding-left: 4.5%;
+  padding-top: 2%;
+}
+
+.about {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ padding: 5%;
+}
+
+.about .item h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 6rem;
+  text-decoration: none;
+  font-weight: 600;
+  color: #ffffff;
+  padding-top: 10%;
+}
+
+.about .item p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+  margin: 30px 0;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+.about .item .btn-register {
+  color: var(--primary-dark);
+  background-color: #ffffff;
+  border: none;
+  border-radius: 30px;
+  height: 55px;
+  width: 200px;
+  line-height: 30px;
+  padding: 0 20px;
+  font-family: 'Open sans', sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.about .item .btn-register:hover {
+  color: #ffffff;
+  background-color: var(--primary-soft);
+}
+
+.footer {
+
+  text-align: right;
+}
+
+.footer .social a {
+  height: 50px;
+  width: 50px;
+  text-align: center; 
+
+}
+
+.footer .social i{
+  font-size: 3rem;
+  margin-right: 30px;
+  transition: 0.3s ease-in-out;
+  color: #ffffff;
+  border-radius: 30px;
+  border: 2px solid #ffffff;
+  height: 50px;
+  width: 50px;
+  line-height: 47px;
+}
+
+
+.footer .social i:hover {
+  color: var(--primary-soft);
+  border-color: var(--primary-soft);
+}

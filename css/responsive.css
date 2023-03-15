@@ -1,0 +1,165 @@
+  @media(max-width: 1280px) {
+    body {
+      background-image: url('/images/bg-mobile.svg');
+      background-size: cover;
+    }
+  
+    header {
+      padding-left: 2.5%;
+      padding-top: 2%;
+    }
+  
+    .about {
+      grid-template-columns: 1fr;
+      padding: 5% 2.5%;
+    }
+  
+    .about .item h1 {
+      font-size: 4.8rem;
+    }
+  
+    .about .item p {
+      font-size: 1.8rem;
+      margin: 20px 0;
+      line-height: 30px;
+    }
+  
+    .about .item .btn-register {
+      height: 45px;
+      width: 180px;
+      font-size: 1.8rem;
+    }
+
+    .about .item .btn-register:hover {
+      color: #ffffff;
+      background-color: var(--primary-soft);
+    }
+  
+    .footer {
+      text-align: center;
+    }
+  
+    .footer .social {
+      margin-top: 20px;
+    }
+  
+    .footer .social a {
+      height: 40px;
+      width: 40px;
+    }
+  
+    .footer .social i {
+      font-size: 2.4rem;
+      height: 40px;
+      width: 40px;
+      line-height: 37px;
+    }
+
+    .footer .social i:hover {
+      color: var(--primary-soft);
+      border-color: var(--primary-soft);
+    }
+  }
+
+  @media(max-width: 768px) {
+    html {
+      font-size: 50%;
+    }
+  
+    body {
+      background-image: url('/images/bg-desktop.svg');
+      background-size: cover;
+      height: auto;
+    }
+  
+    header {
+      padding: 5% 2.5%;
+    }
+  
+    .about .item h1 {
+      font-size: 4rem;
+      padding-top: 5%;
+    }
+  
+    .about .item p {
+      font-size: 1.6rem;
+      margin: 15px 0;
+      line-height: 25px;
+    }
+  
+    .about .item .btn-register {
+      height: 40px;
+      width: 150px;
+      font-size: 1.4rem;
+    }
+
+    .about .item .btn-register:hover {
+      color: #ffffff;
+      background-color: var(--primary-soft);
+    }
+  
+    .footer {
+      text-align: center;
+      padding: 5%;
+    }
+  
+    .footer .social {
+      margin-top: 20px;
+    }
+  
+    .footer .social a {
+      height: 35px;
+      width: 35px;
+    }
+  
+    .footer .social i {
+      font-size: 2rem;
+      height: 35px;
+      width: 35px;
+      line-height: 32px;
+    }
+
+    .footer .social i:hover {
+      color: var(--primary-soft);
+      border-color: var(--primary-soft);
+    }
+  }
+
+  @media(max-width: 425px) {
+    html {
+      font-size: 40%;
+    }
+  
+    body {
+      background-image: url(/images/bg-mobile.svg);
+      background-color: var(--primary-dark);
+      height: auto;
+    }
+
+    
+    .about .item {
+      padding: 0 10%;
+    }
+    
+    .about .item img {
+      margin-bottom: 10px;
+    }
+    
+    .about .item h1 {
+      font-size: 4rem;
+      margin-bottom: 10px;
+    }
+    
+    .about .item p {
+      font-size: 2rem;
+      line-height: 30px;
+    }
+    
+    .about .item .btn-register {
+      font-size: 1.6rem;
+      width: 180px;
+      height: 45px;
+      line-height: 25px;
+      margin-top: 20px;
+    }
+  }

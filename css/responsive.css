@@ -1,9 +1,14 @@
-  @media(max-width: 1280px) {
-    body {
-      background-image: url('/images/bg-mobile.svg');
-      background-size: cover;
+  @media(max-width: 1440px) {
+    .about {
+      grid-template-columns: 1fr;
+      text-align: center;
     }
+  }
   
+  
+  
+  @media(max-width: 1280px) {
+ 
     header {
       padding-left: 2.5%;
       padding-top: 2%;
@@ -62,15 +67,6 @@
   }
 
   @media(max-width: 768px) {
-    html {
-      font-size: 50%;
-    }
-  
-    body {
-      background-image: url('/images/bg-desktop.svg');
-      background-size: cover;
-      height: auto;
-    }
   
     header {
       padding: 5% 2.5%;
